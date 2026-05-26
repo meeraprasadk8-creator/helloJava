@@ -1,2 +1,2 @@
 # helloJava
-My first java projeact
+My first java project
