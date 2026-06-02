@@ -12,6 +12,9 @@ public class Main {
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
+        System.out.println("5. Modulus");
+        System.out.println("6. Power");
+        System.out.println("7. Square Root");
         System.out.print("Enter your choice: ");
         choice = sc.nextInt();
 
@@ -39,6 +42,17 @@ public class Main {
                     System.out.println("Result = " + (a / b));
                 else
                     System.out.println("Division by zero is not possible");
+                break;
+            case 5:
+                System.out.println("Result = " + (a % b));
+                break;
+
+            case 6:
+                System.out.println("Result = " + Math.pow(a, b));
+                break;
+
+            case 7:
+                System.out.println("Square Root of first number = " + Math.sqrt(a));
                 break;
 
             default:
